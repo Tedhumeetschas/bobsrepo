@@ -1,5 +1,11 @@
 #!/bin/bash
+
+
 testfunction(){
    journalctl --list-boots
+   BOOT1="$1"
+      echo "$BOOT1"
 }
 testfunction
+
+   
