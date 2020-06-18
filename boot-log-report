@@ -1,11 +1,26 @@
 #!/bin/bash
 
+journalctl --list-boots >> LOG1="LOG 1"
+     
+# Purpose - Display a menu on screen
 
-testfunction(){
-   journalctl --list-boots
-   BOOT1="$1"
-      echo "$BOOT1"
+function show_menu(){
+
+date
+
+echo "---------------------------"
+
+echo " Boot Log"
+
+echo "---------------------------"
+
+echo "$LOG1"
+
+echo "2. Hostname and dns info"
+
+echo "3. Network info"
+
+
 }
-testfunction
 
    
