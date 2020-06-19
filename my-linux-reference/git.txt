@@ -1,0 +1,89 @@
+-----------
+SET-UP
+-----------
+
+git --version
+
+git init (INITIALIZE CURRENT DIRECTORY AS GIT)
+
+git clone (ENTER URL FOR GIT REPO)
+
+git remote (SHOW REMOTE REPO)
+
+------------
+STAGING
+------------
+
+git status
+
+git add (ENTER SCRIPT NAME)
+
+------------
+COMMITTING
+------------
+
+git commit -m "Commit message"
+
+------------
+BRANCHES
+------------
+
+git branch (* DEFINES YOUR CURRENT ACTIVE BRANCH)
+
+git merge (branch-name)
+
+git merge --abort (IF THERE ARE CONFLICTS)
+
+git branch -d branch-name (TO DELETE BRANCH NO LONGER NEEDED)
+
+-----------
+COLLABORATE AND UPDATE
+-----------
+
+git fetch
+
+git merge upstream/master
+
+git push origin master
+
+git pull
+
+
+-----------
+INSPECTING
+-----------
+
+git log
+
+-----------
+SHOW CHANGES
+-----------
+
+git diff
+
+git diff --staged
+
+git diff (61ce3e6..e221d9c) (SHOW DIFFERENCES BETWEEN 2 COMMITS)
+
+
+-----------
+STASH
+-----------
+
+TO SAVE YOUR WORK WITHOUT APPLYING UNTIL LATER
+
+git stash
+
+git stash list
+
+git stash show stash@{0} 
+
+git stash apply stash@{0}
+
+git stash pop stash@{0}
+
+git stash drop stash@{0}
+
+git stash clear
+
+
