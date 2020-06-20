@@ -37,7 +37,7 @@ echo "   xxxx       xxxxxx     xxxxxxx         xxxx           xxxxxxx           
 echo "              xxxxx      xxxxxx          xxxx           xxxxxxx            xxxx xx   xxxxxxxxxxxxx    "   
 echo "                         xxxxxx          xxxx            xxxxxx            xxxx       xxxxxxxxxxx     "   
 echo "                                                                                                      " 
-echo "          	HERE---------------------------TO--------------------------------SERVE              "
+echo "              HERE-----------------------------------TO--------------------------------SERVE          "
 echo "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 now=$(date)
